@@ -95,4 +95,12 @@
   align-items: center;
   text-decoration: none;
 }
-
+div.history {
+  background-color: black;
+  height: 300px;
+  width: 700px;
+  color: #ef9539;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 15px;
+}
