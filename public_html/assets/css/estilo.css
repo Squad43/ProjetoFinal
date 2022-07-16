@@ -1,5 +1,98 @@
-header{
-    background-color: blue;
-    height: 50px;
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap');
+
+/* Modificando a navbar aqui */
+#foto1 {
+    height: 6em;
+    margin-right: 2em;
+  }
+
+
+/*Aqui fiz o design do template do carrossel*/
+.carousel-item {
+    height: 30rem;
+    background:#000;
+    color: white;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+  }
+
+.container {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      padding-bottom: 50px;
+  }
+
+.overlay-image {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.5;
+    width: auto;
+  }
+
+/*Aqui estou definido os elementos do sections do projeto*/
+.button{
+  text-align: center;
     
 }
+
+.project-p {
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    color: #6a6a6a;
+    padding-top: 4rem;
+}
+
+.project-h1 {
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+/*Aqui estou definido os elementos do sections da história*/
+#imagem {
+   background-image: url("../imagens/alexis-brown-omeaHbEFlN4-unsplash.jpg");
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   height:500px;
+   opacity: 0.5;  
+}
+
+.history-p {
+  text-align: center;
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+  color: #ebebeb;
+  padding-top: 4rem;
+}
+
+.history-h1 {
+  text-align: center;
+  padding-bottom: 2rem;
+  color:#e6633d;
+}
+
+/*Aqui estou definido os elementos do rodapé*/
+
+#collapsibleNavbar1{
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-item1 {
+  display: inline;
+  align-items: center;
+  text-decoration: none;
+}
+
