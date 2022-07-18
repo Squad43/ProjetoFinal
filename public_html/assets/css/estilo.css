@@ -50,22 +50,22 @@
 }
 /*Aqui estou definido os elementos do sections da história*/
 #imagem {
-   background-image: url("../imagens/alexis-brown-omeaHbEFlN4-unsplash.jpg");
+   background-image: url("../imagens/adam-winger-Z1ydzL0FdoU-unsplash.jpg");
    background-size: cover;
    background-position: center;
    background-repeat: no-repeat;
    display: flex;
    flex-direction: column;
    align-items: center;
-   height:500px;
+   height:800px;
    opacity: 0.5;  
 }
 .history-p {
   text-align: center;
   font-size: 18px;
   font-family: 'Open Sans', sans-serif;
-  color: #ebebeb;
-  padding-top: 4rem;
+  color: white;
+  padding-top: 18rem;
 }
 .history-h1 {
   text-align: center;
