@@ -58,13 +58,13 @@
    flex-direction: column;
    align-items: center;
    height:800px;
-   opacity: 0.5;  
+  
 }
 .history-p {
   text-align: center;
-  font-size: 18px;
+  font-size: 30px;
   font-family: 'Open Sans', sans-serif;
-  color: white;
+  color:white;
   padding-top: 18rem;
 }
 .history-h1 {
@@ -84,16 +84,14 @@
   text-decoration: none;
 }
 div.history {
-<<<<<<< HEAD
-  height: 450px;
-=======
-  height: 400px;
->>>>>>> eb2d7d757c7a0bfe11836b158b74f24616eabe7d
+
+  height: 550px;
   width: 700px;
   color: #ef9539;
   border-radius: 10px;
   padding: 15px;
   margin: 15px;
+  text-align: justify;
 }
 div.galeria{
   margin: 20px;
@@ -107,6 +105,11 @@ div.galeria{
 text-align: justify;
 }
 
+.formulario{
+  padding-left: 25%;
+  padding-right: 25%;
+  margin:0;
+}
 
 
 
